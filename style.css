@@ -30,8 +30,7 @@ header{
     align-items: center;
     grid-template-columns: repeat(3,1fr);
     padding: 4px 16px;
-    max-height: 80px;
-    height: 100%;
+
 }
 
 header > img{
@@ -86,4 +85,31 @@ header ul.navigator{
     text-fill-color: transparent;
 
     backdrop-filter: blur(2px);
+}
+
+@media (max-width: 992px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    header ul#socials{
+        gap: 24px;
+    }
+    header .navigator{
+        grid-row: 2;
+    }
+
+    #SobreMim {
+        grid-template-columns: 1fr;
+    }
+
+    #SobreMim > h1{
+        margin: 0 auto;
+        text-align: center;
+        width: 18ch;
+    }
+    #SobreMim img{
+        display: none;
+    }
 }
