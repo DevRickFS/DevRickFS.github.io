@@ -81,9 +81,6 @@ header ul.navigator{
     background: linear-gradient(90deg, #00145C 0%, rgba(155, 83, 196, 0.971991) 30.36%, rgba(207, 29, 242, 0.954404) 55.22%, rgba(221, 16, 254, 0.95) 61.45%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-
     backdrop-filter: blur(2px);
 }
 
