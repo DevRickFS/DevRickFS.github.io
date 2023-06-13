@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'JetBrains mono', courier, monospace;
+}
+.sections-size{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.sections-main-size{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+ 
+}
+
+.sections-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+header{
+    display:grid;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    padding: 4px 16px;
+    max-height: 80px;
+    height: 100%;
+}
+
+header > img{
+    max-height:72px;
+    height: 100%;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul#socials{
+    gap: 80px;
+    text-align: center;
+    justify-content: center;
+}
+
+header ul.navigator{
+    font-weight: 400;
+    gap: 40px;
+    font-size: .75rem;
+    justify-content: flex-end;
+}
+.navigator a {
+    padding: 4px 12px;
+}
+
+#SobreMim{
+    margin: 5.6rem auto;
+    align-items: center;
+}
+#SobreMim h1{
+    width: 20ch;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+
+}
+
+.destaque-sobre{
+    font-family: 'JetBrains Mono';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+    background: linear-gradient(90deg, #00145C 0%, rgba(155, 83, 196, 0.971991) 30.36%, rgba(207, 29, 242, 0.954404) 55.22%, rgba(221, 16, 254, 0.95) 61.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    backdrop-filter: blur(2px);
+}
