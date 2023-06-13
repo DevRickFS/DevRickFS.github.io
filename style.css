@@ -93,9 +93,11 @@ header ul.navigator{
     header ul#socials{
         gap: 24px;
     }
-    header .navigator{
-        grid-row: 2;
+    header ul.navigator{
+        gap: 24px; 
     }
+
+
 
     #SobreMim {
         grid-template-columns: 1fr;
@@ -104,7 +106,8 @@ header ul.navigator{
     #SobreMim > h1{
         margin: 0 auto;
         text-align: center;
-        width: 18ch;
+        max-width: 18ch;
+        width: 100%;
     }
     #SobreMim img{
         display: none;
